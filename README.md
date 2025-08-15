@@ -29,6 +29,26 @@ Aplicar herramientas y metodologías para mejorar la experiencia del cliente y l
 - **RPA Bot** (`bot_seguimiento.py`): automatiza seguimiento a clientes.
 - **Selenium Bot** (`bot_selenium.py`): extrae datos de páginas web.
 - **Chatbot** (`chatbot.py`): atiende consultas frecuentes.
+- # 🛠 Proyecto de Automatización RPA + Web Scraping para Contact Center
+
+Este proyecto simula la automatización de la gestión de casos en un **BPO / Contact Center**, alineado con las responsabilidades de la vacante en Konecta.
+
+Combina:
+- **Bot Selenium** para extraer datos de casos de clientes desde una fuente HTML simulada.
+- **Bot RPA en Python** para enviar notificaciones automáticas y actualizar el seguimiento de clientes en Excel.
+
+---
+
+## 📌 Objetivos
+- Optimizar procesos de atención al cliente.
+- Reducir tiempos manuales de consulta y respuesta.
+- Centralizar información en un archivo Excel que puede ser usado por otros sistemas.
+- Demostrar habilidades en **automatización robótica de procesos (RPA)** y **procesos BPO**.
+
+---
+
+## 📂 Estructura del proyecto
+
 
 ---
 

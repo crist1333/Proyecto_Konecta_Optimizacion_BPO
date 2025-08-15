@@ -22,7 +22,7 @@ driver = webdriver.Chrome(options=options)
 # ==============================
 # Puedes usar un HTML local o una URL de prueba
 # Ejemplo: archivo local 'casos_clientes.html' en la misma carpeta
-url = "file:///C:/ruta/a/tu/archivo/casos_clientes.html"
+url = "file:///C:/Users/crist/PycharmProjects/Proyecto_Konecta_Optimizacion_BPO/casos_clientes.html"
 driver.get(url)
 time.sleep(2)
 

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b35d0b-fa54-4fd6-a2da-0f60a5873560" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bot_selenium_casos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot_rpa/seguimiento_clientes.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguimiento_clientes_actualizado.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/seguimiento_clientes_actualizado.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_selenium_casos.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_selenium_casos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/casos_clientes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.bot_seguimiento.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bot_selenium.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chatbot.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.bot_seguimiento.executor": "Run",
+    "Python.bot_selenium.executor": "Run",
+    "Python.bot_selenium_casos.executor": "Run",
+    "Python.chatbot.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.bot_selenium_casos">
     <configuration name="bot_seguimiento" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proyecto_Konecta_Optimizacion_BPO" />
@@ -104,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot_selenium_casos.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\bot_scraper\bot_selenium_casos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
