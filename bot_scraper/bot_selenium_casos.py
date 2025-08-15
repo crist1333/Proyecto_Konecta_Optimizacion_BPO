@@ -57,7 +57,7 @@ df = pd.DataFrame({
 })
 
 # Guardar directamente en la carpeta bot_rpa
-excel_path = "../bot_rpa/seguimiento_clientes.xlsx"
+excel_path = "bot_rpa/seguimiento_clientes.xlsx"
 df.to_excel(excel_path, index=False)
 
 print(f"✅ Datos extraídos y guardados en {excel_path}")
