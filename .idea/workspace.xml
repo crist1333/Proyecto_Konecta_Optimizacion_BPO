@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b35d0b-fa54-4fd6-a2da-0f60a5873560" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bot_rpa/seguimiento_clientes.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot_selenium_casos.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_selenium_casos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/casos_clientes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_seguimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_rpa/bot_seguimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_bot/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_selenium.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/resultados_selenium.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguimiento_clientes.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/seguimiento_clientes.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguimiento_clientes_actualizado.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/seguimiento_clientes_actualizado.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,14 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\chat_bot" />
+      <recent name="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\data" />
+      <recent name="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\bot_rpa" />
+      <recent name="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\bot_scraper" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.bot_selenium_casos">
     <configuration name="bot_seguimiento" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proyecto_Konecta_Optimizacion_BPO" />
@@ -62,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot_seguimiento.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\bot_rpa\bot_seguimiento.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chatbot.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\chat_bot\chatbot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

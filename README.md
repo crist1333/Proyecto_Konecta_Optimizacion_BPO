@@ -20,9 +20,64 @@ Aplicar herramientas y metodologías para mejorar la experiencia del cliente y l
 2. **Investigación de usuario** – Arquetipos y Customer Journey Maps.
 3. **Propuesta de mejora** – Diseño con Design Thinking.
 4. **Desarrollo técnico** – Bots y prototipos digitales.
-5. **Prototipado visual** – Wireframes y Service Blueprints.
+5. **Prototipado visual** – Wireframes y Service Blueprints
 6. **Presentación final** – Documentación y métricas.
 
+## flujo de interacción
+
+## Estructura básica:
+
+Cada paso es un rectángulo o elipse.
+
+Las flechas indican el orden del proceso.
+
+Colores diferentes para:
+
+Cliente (amarillo)
+
+Agente (azul)
+
+Back office (verde)
+
+Tecnología/Bot (morado)
+
+1️⃣ Caso María – Consulta de estado del caso
+[Cliente llama al Contact Center] → 
+[Agente revisa datos en CRM] → 
+[Bot RPA consulta base de datos] → 
+[Agente confirma estado del caso] → 
+[Bot envía correo de confirmación]
+
+
+Tips de diseño:
+
+Rectángulos amarillos para el cliente.
+
+Rectángulos azules para el agente.
+
+Rectángulo morado para el bot.
+
+Flechas horizontales o verticales.
+
+2️⃣ Caso Luis – Queja por tiempos de esp
+Wireframes – Bocetos de la interfaz
+
+Los wireframes son esquemas simples (blanco y negro o colores neutros) que muestran la estructura de una pantalla, no su diseño final.
+
+Caso María – Consulta de estado de caso (Bot Web o WhatsApp)
+┌────────────────────────────┐
+│ Chatbot Konecta             │
+├────────────────────────────┤
+│ Hola, María, ¿quieres       │
+│ consultar el estado de tu   │
+│ caso? (Sí / No)              │
+├────────────────────────────┤
+│ Bot: Caso #45678, en        │
+│ revisión por área financiera│
+│ Tiempo estimado: 24h        │
+├────────────────────────────┤
+│ [Botón: Consultar otro caso]│
+└────────────────────────────┘
 ---
 
 ## 🤖 Bots Incluidos
