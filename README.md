@@ -62,7 +62,8 @@ Flechas horizontales o verticales.
 2️⃣ Caso Luis – Queja por tiempos de esp
 Wireframes – Bocetos de la interfaz
 
-Los wireframes son esquemas simples (blanco y negro o colores neutros) que muestran la estructura de una pantalla, no su diseño final.
+
+## Los wireframes son simples (blanco y negro o colores neutros) que muestran la estructura de una pantalla, no su diseño final.
 
 Caso María – Consulta de estado de caso (Bot Web o WhatsApp)
 ┌────────────────────────────┐
