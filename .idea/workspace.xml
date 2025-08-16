@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b35d0b-fa54-4fd6-a2da-0f60a5873560" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/img/Flujo de Interacción – Caso Maria.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/Output del Bot RPA (consola PyCharm).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/Wireframe Prototipo–Chatbot (WhatsApp-Email).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot_rpa/bot_seguimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_rpa/bot_seguimiento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/seguimiento_clientes_actualizado.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/seguimiento_clientes_actualizado.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/seguimiento_clientes_raw.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/seguimiento_clientes_raw.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
