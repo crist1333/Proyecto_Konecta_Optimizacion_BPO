@@ -1,6 +1,6 @@
 # bot_selenium_casos.py
 # Autor: Cristian Aranzazu - Proyecto Konecta RPA
-# Descripción: Extrae datos simulados de casos de clientes y los guarda en seguimiento_clientes.xlsx
+# Descripción: Extrae datos simulados de casos de clientes y los guarda en /data/seguimiento_clientes.xlsx
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -22,8 +22,6 @@ driver = webdriver.Chrome(options=options)
 # ==============================
 # 2. URL de datos simulados
 # ==============================
-# Puedes usar un HTML local o una URL de prueba
-# Ejemplo: archivo local 'casos_clientes.html' en la misma carpeta
 url = "file:///C:/Users/crist/PycharmProjects/Proyecto_Konecta_Optimizacion_BPO/bot_scraper/casos_clientes.html"
 driver.get(url)
 time.sleep(2)
@@ -31,13 +29,9 @@ time.sleep(2)
 # ==============================
 # 3. Extracción de datos
 # ==============================
-clientes = []
-casos = []
-estados = []
-fechas = []
+clientes, casos, estados, fechas = [], [], [], []
 
 rows = driver.find_elements(By.CSS_SELECTOR, "table tr")
-
 for row in rows[1:]:  # Saltar encabezado
     cols = row.find_elements(By.TAG_NAME, "td")
     if len(cols) == 4:
@@ -58,20 +52,23 @@ df = pd.DataFrame({
     "Tiempo estimado": fechas
 })
 
-# Asegurar que la carpeta exista
-output_dir = os.path.join(os.getcwd(), "bot_rpa")
+# Carpeta centralizada "data"
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+output_dir = os.path.join(project_root, "data")
 os.makedirs(output_dir, exist_ok=True)
 
-# Crear nombre de archivo con timestamp
+# Guardar versión con timestamp en /data/historial/
+hist_dir = os.path.join(output_dir, "historial")
+os.makedirs(hist_dir, exist_ok=True)
+
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-excel_filename = f"seguimiento_clientes_{timestamp}.xlsx"
-excel_path = os.path.join(output_dir, excel_filename)
+excel_filename_hist = f"seguimiento_clientes_{timestamp}.xlsx"
+excel_path_hist = os.path.join(hist_dir, excel_filename_hist)
+df.to_excel(excel_path_hist, index=False)
 
-# Guardar el DataFrame
-df.to_excel(excel_path, index=False)
+# Guardar versión principal (sobrescribe siempre)
+excel_path_main = os.path.join(output_dir, "seguimiento_clientes_raw.xlsx")
+df.to_excel(excel_path_main, index=False)
 
-# Guardar directamente en la carpeta bot_rpa
-excel_path = "bot_rpa/seguimiento_clientes.xlsx"
-df.to_excel(excel_path, index=False)
-
-print(f"✅ Datos extraídos y guardados en {excel_path}")
+print(f"✅ Datos extraídos y guardados en: {excel_path_main}")
+print(f"🗂 Versión histórica guardada en: {excel_path_hist}")
