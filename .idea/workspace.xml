@@ -39,6 +39,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.bot_seguimiento.executor": "Run",
     "Python.bot_selenium.executor": "Run",
+    "Python.bot_selenium_casos (1).executor": "Run",
     "Python.bot_selenium_casos.executor": "Run",
     "Python.chatbot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,7 +55,7 @@
       <recent name="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\bot_scraper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bot_selenium_casos">
+  <component name="RunManager" selected="Python.bot_selenium_casos (1)">
     <configuration name="bot_seguimiento" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proyecto_Konecta_Optimizacion_BPO" />
       <option name="ENV_FILES" value="" />
@@ -91,6 +92,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot_selenium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bot_selenium_casos (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proyecto_Konecta_Optimizacion_BPO" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bot_scraper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot_scraper/bot_selenium_casos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bot_selenium_casos (1)" />
         <item itemvalue="Python.bot_selenium_casos" />
         <item itemvalue="Python.chatbot" />
         <item itemvalue="Python.bot_seguimiento" />
