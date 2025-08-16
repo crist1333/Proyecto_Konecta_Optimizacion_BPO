@@ -7,8 +7,8 @@
     <list default="true" id="63b35d0b-fa54-4fd6-a2da-0f60a5873560" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot_rpa/bot_seguimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_rpa/bot_seguimiento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot_scraper/bot_selenium_casos.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_scraper/bot_selenium_casos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/seguimiento_clientes_actualizado.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/seguimiento_clientes_actualizado.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/seguimiento_clientes_raw.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/seguimiento_clientes_raw.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="C:\Users\crist\PycharmProjects\Proyecto_Konecta_Optimizacion_BPO\bot_scraper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bot_selenium_casos (1)">
+  <component name="RunManager" selected="Python.bot_seguimiento (1)">
     <configuration name="bot_seguimiento (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proyecto_Konecta_Optimizacion_BPO" />
       <option name="ENV_FILES" value="" />
@@ -171,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bot_selenium_casos (1)" />
         <item itemvalue="Python.bot_seguimiento (1)" />
+        <item itemvalue="Python.bot_selenium_casos (1)" />
         <item itemvalue="Python.bot_selenium_casos" />
         <item itemvalue="Python.chatbot" />
         <item itemvalue="Python.bot_seguimiento" />

@@ -37,4 +37,3 @@ df["Última actualización"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 df.to_excel(output_path, index=False)
 
 print(f"✅ Archivo actualizado guardado como '{output_path}'")
-
