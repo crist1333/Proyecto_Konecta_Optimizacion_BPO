@@ -1,13 +1,19 @@
+import os
 import pandas as pd
 from datetime import datetime
 
-# Cargar datos de clientes
-df = pd.read_excel("seguimiento_clientes.xlsx")
+# Ruta absoluta al archivo
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+input_path = os.path.join(project_root, "bot_rpa", "seguimiento_clientes.xlsx")
+output_path = os.path.join(project_root, "bot_rpa", "seguimiento_clientes_actualizado.xlsx")
+
+# Cargar datos
+df = pd.read_excel(input_path)
 
 # Simulación de envío de mensajes
 for index, row in df.iterrows():
     nombre = row["Nombre"]
-    contacto = row["Contacto"]
+    contacto = row.get("Contacto", "Sin contacto")  # Evita error si no existe
     caso = row["Número de caso"]
     estado = row["Estado"]
 
@@ -26,7 +32,7 @@ Si deseas consultar el estado en cualquier momento, responde con la palabra: EST
 """
     print(f"📤 Mensaje enviado a: {contacto}\n{mensaje}")
 
-# Actualizar archivo con fecha de seguimiento
+# Actualizar archivo
 df["Última actualización"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-df.to_excel("seguimiento_clientes_actualizado.xlsx", index=False)
-print("✅ Archivo actualizado guardado como 'seguimiento_clientes_actualizado.xlsx'")
+df.to_excel(output_path, index=False)
+print(f"✅ Archivo actualizado guardado como '{output_path}'")
